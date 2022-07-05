@@ -1,4 +1,4 @@
-//Feito por Nicolas Alves
+//Feito por: Nicolas Alves
 
 programa
 {
@@ -68,7 +68,7 @@ cadastro [3] = senha
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 25; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {cadastro, 11, 9, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

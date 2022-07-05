@@ -1,6 +1,8 @@
+//Feito por: Nicolas Alves
+
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
@@ -22,6 +24,13 @@ u.aguarde(2300)
 limpa()
 
 	escreva("A maior pontuação é: "+ maiorNumero)
+
+
+u.aguarde(4000)
+limpa()	
+
+
+	escreva("Feito por: Nicolas Alves")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +38,7 @@ limpa()
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 410; 
+ * @POSICAO-CURSOR = 26; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {pontuacao, 7, 10, 9}-{maiorNumero, 8, 10, 11};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
