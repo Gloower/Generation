@@ -1,35 +1,44 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
-		cadeia nomeCadastro, sobrenCadastro, ultimonCadastro
-		cadeia cadastro [3]
+		cadeia cadastro [1][4]
 
-		escreva("Digite o seu primeiro nome: ")
-		leia(nomeCadastro)
+faca{
+		escreva("Cadastre o seu login: ")
+		leia(cadastro[0][0])
 		u.aguarde(1500)
 		limpa()
 
-		escreva("Digite o seu sobrenome: ")
-		leia(sobrenCadastro)
+		escreva("Cadastre a sua senha: ")
+		leia(cadastro[0][1])
 		u.aguarde(1500)
 		limpa()
 
-		escreva("Digite o seu ultimo nome: ")
-		leia(ultimonCadastro)
+		escreva("Digite o seu login novamente: ")
+		leia(cadastro[0][2])
 		u.aguarde(1500)
 		limpa()
-
-
-//Vetores do cadastro
-		cadastro[0] = nomeCadastro
-		cadastro[1] = sobrenCadastro
-		cadastro[2] = ultimonCadastro
-
-//Cadastro completo
-		escreva("Bem vindo ao site: " + cadastro[0]+ " " + cadastro[1] + " " + cadastro [2])
+		
+		escreva("Digite a sua senha novamente: ")
+		leia(cadastro[0][3])
+		u.aguarde(1500)
+		limpa()
+		
+	se (cadastro[0][2] == cadastro[0][0] e cadastro[0][1] == cadastro[0][3]){
+	
+	escreva("Cadastro feito com sucesso, por favor faça o login")
+	u.aguarde(2500)
+	limpa()
+		}
+	senao{escreva("Login e senha não correspondidos, repita o cadastro")
+u.aguarde(1500)
+limpa()
+		}			
+	}
+enquanto(cadastro[0][2] != cadastro[0][0] ou cadastro[0][1] != cadastro[0][3])
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,9 +46,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 623; 
+ * @POSICAO-CURSOR = 730; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {cadastro, 7, 9, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
