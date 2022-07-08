@@ -1,7 +1,6 @@
 package br.com.generation.laco;
 import java.util.Scanner;
 
-import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
 
 
 public class Switch {
@@ -47,7 +46,7 @@ break;
 
 
 }
-
+read.close();
 
     }
 }

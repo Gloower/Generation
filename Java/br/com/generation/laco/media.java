@@ -24,6 +24,8 @@ public class media {
             else{
                 System.out.println("Aluno foi reprovado.");
             }
+
+  leia.close();          
     }
 
 }
