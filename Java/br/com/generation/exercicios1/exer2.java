@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class exer2 {
     public static void main(String[] args) {
        Scanner read = new Scanner(System.in);
-        int num1, num2, num3;
-        int aux;
+        int num1, num2, num3, aux;
+
        
 
        System.out.println("Escreva o primeiro numero: ");
