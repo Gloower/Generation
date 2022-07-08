@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exercicios1;
 import java.util.Scanner;
 
 public class exer2 {

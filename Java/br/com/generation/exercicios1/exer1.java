@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exercicios1;
 import java.util.Scanner;
 
 
@@ -33,5 +33,6 @@ if(num3 > maiorNum){
 
 System.out.println("O maior numero é: " + maiorNum);
 
+read.close();
     }
 }
