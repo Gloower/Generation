@@ -23,6 +23,3 @@ faz uma fork e corrige-a pra mim, agradeço <3.
 7. [Atividades Laço](/Portugol/Atividades%20la%C3%A7o/)
 8. [Atividades 01](/Portugol/Atividades%2001/)
 9. [Atividades Vetores](/Portugol/Atividades%20Vetores/)
-
-
- (Clique no emoji para ser redirecionado aos sites)

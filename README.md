@@ -15,5 +15,6 @@ faz uma fork e corrige-a pra mim, agradeço <3.
 
 # Conteúdos
 1. [Portugol](/Portugol/Portugol.md)
+2. [Java](/Java/Java.md)
 
  (Clique no emoji para ser redirecionado aos sites)
