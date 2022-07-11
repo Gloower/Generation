@@ -8,7 +8,7 @@ public class login {
         String cadastro [] = new String [4];
         String nickname;
 
-//Cadastro e confirmação de login e senha. ↓
+//Cadastro e confirmação de login e senha. 
 
 do{
     System.out.println("Cadastre o seu login: ");
