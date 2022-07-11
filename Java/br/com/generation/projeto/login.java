@@ -8,7 +8,7 @@ public class login {
         String cadastro [] = new String [4];
         String nickname;
 
-//Cadastro e confirmação de login e senha.
+//Cadastro e confirmação de login e senha. ↓
 
 do{
     System.out.println("Cadastre o seu login: ");
@@ -27,7 +27,7 @@ do{
     cadastro[3] = read.next();
     Thread.sleep(2000);
 
-//Verificação de login e senha --> assim prosseguir para o login.
+//Verificação de login e senha --> assim prosseguir para o login. 
 
    if (cadastro[2].equals(cadastro[0]) && cadastro [1].equals(cadastro[3])){
     System.out.println("Login cadastrado com sucesso.");
