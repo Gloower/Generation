@@ -65,6 +65,6 @@ do {
         System.out.println("Bem vinde ao .......");
 
         
-
+read.close();
     }
 }
