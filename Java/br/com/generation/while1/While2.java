@@ -1,4 +1,4 @@
-package java.br.com.generation.while1;
+package Java.br.com.generation.while1;
 
 public class While2 {
     public static void main(String[] args) {

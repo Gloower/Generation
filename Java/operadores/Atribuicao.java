@@ -1,4 +1,4 @@
-package java.operadores;
+package Java.operadores;
 
 public class Atribuicao {
     public static void main(String[] args) {

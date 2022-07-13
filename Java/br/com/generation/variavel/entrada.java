@@ -1,5 +1,5 @@
 //Entrada e Saida de dados 
-package java.br.com.generation.variavel;
+package Java.br.com.generation.variavel;
 import java.util.Scanner;
 
 public class entrada {

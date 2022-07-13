@@ -1,4 +1,4 @@
-package java.br.com.generation.variavel;
+package Java.br.com.generation.variavel;
 
 public class teste {
     public static void main(String args[]) {

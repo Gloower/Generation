@@ -1,4 +1,4 @@
-package java.br.com.generation.exercicios2;
+package Java.br.com.generation.exercicios2;
 import java.util.*;
 
 public class exer6 {

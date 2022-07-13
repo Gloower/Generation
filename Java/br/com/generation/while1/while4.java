@@ -1,4 +1,4 @@
-package java.br.com.generation.while1;
+package Java.br.com.generation.while1;
 import java.util.*;
 
 

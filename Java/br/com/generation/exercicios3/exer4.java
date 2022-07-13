@@ -1,4 +1,4 @@
-package java.br.com.generation.exercicios3;
+package Java.br.com.generation.exercicios3;
 
 
 
