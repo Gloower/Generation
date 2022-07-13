@@ -1,4 +1,4 @@
-package br.com.generation.exercicios3;
+package java.br.com.generation.exercicios3;
 import java.util.*;
 
 

@@ -1,4 +1,4 @@
-package br.com.generation.exercicios1;
+package java.br.com.generation.exercicios1;
 import java.util.Scanner;
 
 /*3- Faça um programa que receba a idade de uma pessoa e mostre na saída em qual

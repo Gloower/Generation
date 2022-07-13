@@ -1,4 +1,4 @@
-package br.com.generation.vetor;
+package java.br.com.generation.vetor;
 import java.util.*;
 
 public class vetor1 {

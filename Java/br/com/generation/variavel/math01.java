@@ -1,4 +1,4 @@
-package br.com.generation.variavel;
+package java.br.com.generation.variavel;
 
 public class math01 {
     public static void main(String args[]) {

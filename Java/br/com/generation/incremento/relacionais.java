@@ -1,4 +1,4 @@
-package br.com.generation.incremento;
+package java.br.com.generation.incremento;
 import java.util.Scanner;
 
 public class relacionais {

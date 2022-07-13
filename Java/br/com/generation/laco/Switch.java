@@ -1,4 +1,4 @@
-package br.com.generation.laco;
+package java.br.com.generation.laco;
 import java.util.Scanner;
 
 
