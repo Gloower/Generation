@@ -30,6 +30,6 @@ public class exerc2 {
         sell.setRetailer(nameRetailer);
 
         sell.console();
-
+input.close();
     }
 }
