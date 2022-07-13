@@ -1,12 +1,12 @@
 package Java.br.com.generation.exercicios4;
 
 class exer1 {
-    private String client;
-    private String buy;
+    private String client; // --> client name
+    private String buy; // --> what the client want to buy
     
 
 
-
+// get and set 
    
     public String getClient() {
         return client;
@@ -21,6 +21,7 @@ class exer1 {
         this.buy = buy;
     }
 
+// Message on console
     void console(){
         System.out.println("Bem vindo " + client + " voce esta comprando " + buy + " em nosso site.");
     }

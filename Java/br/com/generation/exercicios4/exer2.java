@@ -6,7 +6,7 @@ class exer2 {
     private String acess; // --> acess = password
     private String product; // --> what u will sell 
 
-
+// get and set 
 
     public String getRetailer() {
         return retailer;
@@ -33,7 +33,7 @@ class exer2 {
         this.product = product;
     }
     
-
+// Message on console
     void console(){
         System.out.println("Bem vindo " + retailer + " hoje você irá vender " + product + " para os seus clientes.");
     }

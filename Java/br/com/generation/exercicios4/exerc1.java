@@ -7,6 +7,7 @@ public class exerc1 {
         String nameClient, buyProduct;
         exer1 buyer = new exer1();
 
+// Questions to fill the get and the set       
         System.out.println("Qual o seu nome? ");
         nameClient = input.next();
 
@@ -14,7 +15,7 @@ public class exerc1 {
         buyProduct = input.next();
 
 
-
+// Set and get 
         buyer.setBuy(buyProduct);
         buyer.setClient(nameClient);
         buyer.console();
