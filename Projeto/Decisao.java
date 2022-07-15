@@ -19,7 +19,7 @@ public class Decisao {
 
         Scanner leia = new Scanner(System.in);
         System.out.println("Como o do(acao) pode ser útil para você, usuário? ");
-        System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! ");
+        System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem");
 
         botao = leia.nextInt();
 
@@ -31,8 +31,16 @@ public class Decisao {
         System.out.println("Eu preciso de ajuda! ");
         }
 
+        if (botao == 3) {
+            System.out.println("Informe o endereco tal tal tal");
+            }
+
         leia.close();
 
     }
 
 }
+
+
+
+//Hell codigo
