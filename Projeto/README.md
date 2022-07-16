@@ -26,6 +26,12 @@ são **extremamente apreciadas**
 
 ou simplesmente, crie uma **ISSUE**
 
+## Citação
+Para programar bem, é necessário muita prática. Uma vez o Daniel He4rt me disse: 
+>**A cada bug resolvido, mais perto da senioridade você está.**
+
+
+
 ## Autores
 - **Hellen Sabo** [Github](https://github.com/HellenSabo)
 - **Matheus Mota** [Github](https://github.com/omatheusmota)
