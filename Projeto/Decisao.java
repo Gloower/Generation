@@ -1,3 +1,4 @@
+// --> Codigo feito por Hellen Sabo
 package Projeto;
 
 import java.util.Scanner;
@@ -18,13 +19,13 @@ public class Decisao {
         int botao;
 
         Scanner leia = new Scanner(System.in);
-        System.out.println("Como o do(acao) pode ser útil para você, usuário? ");
-        System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem");
+        System.out.println("Como o do(acao) pode ser útil para você, ");
+        System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem que precisa de doação? ");
 
         botao = leia.nextInt();
 
         if (botao == 1) {
-        System.out.println("Eu gostaria de doar!");
+        System.out.println("Eu gostaria de doar! ");
         }
 
         if (botao == 2) {
@@ -32,7 +33,7 @@ public class Decisao {
         }
 
         if (botao == 3) {
-            System.out.println("Informe o endereco tal tal tal");
+            System.out.println("Informe o endereço da pessoa que queira indicar: ");
             }
 
         leia.close();
@@ -41,6 +42,3 @@ public class Decisao {
 
 }
 
-
-
-//Hell codigo

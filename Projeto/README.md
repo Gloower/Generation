@@ -1,14 +1,14 @@
 # Generation
 
-Conteúdos aprendidos enquanto estava cursando o curso da Generation Brazil. 
+Projeto feito enquanto estavamos cursando o curso da Generation Brazil. 
 <a target='_blank' href="https://brazil.generation.org/">
 👨‍🎓
 </a>
 
 # Observação
 
-- Eu fiz esses códigos enquanto estava estudando Java e Portugol;
-- Caso encontre algum bug me chamar no discord, glwr#0005;
+- Este projeto é feito em Java, o script é voltado para doações.
+- Caso encontre algum bug chamar no discord, glwr#0005;
 - Se você é dev e achou Dup e sabe como resolver,
 faz uma fork e corrige-a pra mim, agradeço <3.
 
@@ -24,9 +24,12 @@ são **extremamente apreciadas**
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
 
-# Conteúdos
-1. [Portugol](/Portugol/Portugol.md)
-2. [Java](/Java/Java.md)
-3. [Projeto](/Projeto/README.md)
+ou simplesmente, crie uma **ISSUE**
 
- (Clique no emoji para ser redirecionado ao site)
+## Autores
+- **Hellen Sabo** [Github](https://github.com/HellenSabo)
+- **Matheus Mota** [Github](https://github.com/omatheusmota)
+- **Nicolas Alves** [Github](https://github.com/Gloower/)
+- **Victor Mariano** [Github](https://github.com/VMarianOo/)
+- **Vitor Galdino** [Github](https://github.com/VitorGaldino)
+- **Yasmin Nicolau** [Github](https://github.com/hellowluan)

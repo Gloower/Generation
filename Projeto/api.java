@@ -3,7 +3,7 @@ package Projeto;
 class Login {
     private String user; // --> Login
     private String pass; // --> Senha
-
+   
     public String getUser() {
         return user;
     }
