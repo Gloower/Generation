@@ -1,4 +1,4 @@
-// Codigo feitor por Victor Mariano
+// Codigo feitor por Victor Mariano.
 package Projeto;
 
 class Beneficiario {
