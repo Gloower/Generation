@@ -32,4 +32,4 @@ ou simplesmente, crie uma **ISSUE**
 - **Nicolas Alves** [Github](https://github.com/Gloower/)
 - **Victor Mariano** [Github](https://github.com/VMarianOo/)
 - **Vitor Galdino** [Github](https://github.com/VitorGaldino)
-- **Yasmin Nicolau** [Github]()
+- **Yasmin Nicolau** [Github](https://www.youtube.com/watch?v=NUYvbT6vTPs)
