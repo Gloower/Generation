@@ -1,4 +1,4 @@
-// --> Codigo feito por Hellen Sabo
+// --> Codigo feito por Hellen Sabo.
 package Projeto;
 
 import java.util.Scanner;
