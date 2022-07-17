@@ -230,7 +230,7 @@ System.out.println("Como o do(acao) pode ser útil para você?");
 System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem que precisa de doação? ");
 
 botao = input.nextInt();
-//Escolha 1 --> Feito por Nicolas e Matheus
+//Escolha 1 --> Feito por Nicolas e Matheus Mota.
     if (botao == 1) {
     System.out.println("O que voce quer doar? ");
     System.out.println("1- Roupas | 2- Roupas de cama | 3- Mantimentos | 4- Brinquedos");
