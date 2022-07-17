@@ -38,4 +38,4 @@ Para programar bem, é necessário muita prática. Uma vez o Daniel He4rt me dis
 - **Nicolas Alves** [Github](https://github.com/Gloower/)
 - **Victor Mariano** [Github](https://github.com/VMarianOo/)
 - **Vitor Galdino** [Github](https://github.com/VitorGaldino)
-- **Yasmin Nicolau** [Github](https://www.youtube.com/watch?v=NUYvbT6vTPs)
+- **Yasmin Santos** [Github](https://github.com/ynicolau)
