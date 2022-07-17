@@ -263,7 +263,7 @@ Thread.sleep(7000);
 System.out.println("Obrigado por contribuir com o nosso projeto <3");
 }
 
-//Escolha 2    
+//Escolha 2   --> Feito por Vitor Galdino
 
     if (botao == 2) {
         do {
