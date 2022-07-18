@@ -37,7 +37,7 @@ Thread.sleep(4000);
 
 //DesiÃ§Ã£o de login --> 1 - Para fazer o cadastro 2 - Para fazer o login 3 - Quem somos nÃ³s?
 
-System.out.println("Use 1 para fazer o cadastro | 2 para - Ja tenho cadastro | 3 para - Quem somos nÃ³s?");
+System.out.println("Use 1 para fazer o cadastro | 2 para - Ja tenho cadastro | 3 para - Quem somos nós?");
 button = input.nextInt();
 
 //Sistema de Cadastro. --> Inserir login e senha - confirmar os dois.
@@ -56,7 +56,7 @@ if(button == 1){
         Cadastro [3] = input.next();
 
         input.nextLine();
-        System.out.println("Informe o seu endereÃ§o para prosseguir o cadastro: ");
+        System.out.println("Informe o seu endereço" + " para prosseguir o cadastro: ");
         Cadastro[4] = input.nextLine();
 
         
@@ -69,7 +69,7 @@ if(button == 1){
         }
 
         else{
-            System.out.println("Login ou senha nÃ£o correspondem, repita o cadastro.");
+            System.out.println("Login ou senha não correspondem, repita o cadastro.");
         }
     
     }while(!Cadastro[2].equals(Cadastro[0]) || !Cadastro[1].equals(Cadastro [3]));
@@ -114,7 +114,7 @@ if(button == 2){
 
 //Login nÃ£o cadastrado --> faz o cadastro    
         else {
-            System.out.println("Login nÃ£o cadastrado, faÃ§a o cadastro.");
+            System.out.println("Login não cadastrado, faça o cadastro.");
             do{
                 System.out.println("Cadastre o seu login: ");
                 Cadastro [0] = input.next();
@@ -129,7 +129,7 @@ if(button == 2){
                 Cadastro [3] = input.next();   
                 
                 input.nextLine();
-                System.out.println("Informe o seu endereÃ§o para prosseguir o cadastro: ");
+                System.out.println("Informe o seu endereço para prosseguir o cadastro: ");
                 Cadastro[4] = input.nextLine();
             
                 if (Cadastro[2].equals(Cadastro[0]) && Cadastro[1].equals(Cadastro[3])){
@@ -138,7 +138,7 @@ if(button == 2){
                 }
         
                 else{
-                    System.out.println("Login ou senha nÃ£o correspondem, repita o cadastro.");
+                    System.out.println("Login ou senha não correspondem, repita o cadastro.");
                 }
         }while(!Cadastro[2].equals(Cadastro[0]) || !Cadastro[1].equals(Cadastro [3]));
 
@@ -148,11 +148,11 @@ if(button == 2){
 
 //Quem somos nÃ³s?
 if(button == 3){
-    System.out.println("Somos um grupo de estudantes e aspirantes da tecnologia, que compartilha experiÃªncias vividas ao longo da vida em comunidades carentes.");
-    System.out.println("Diante disso surgiu a ideia do projeto Do(aÃ§Ã£o), que visa usar a tecnologia como uma ferramenta aliada que ajuda pessoas da nossa cidade a enfrentarem as dificuldades do dia a dia.");
-    System.out.println("Pessoas carentes de ajuda e pessoas carentes de ajudar. Ã‰ simplesmente uma troca de amor.");
-    System.out.println("Sim, aqui todos sÃ£o ajudados de uma forma ou de outra, o importante Ã© colocar o Do em aÃ§Ã£o ;)");
-    System.out.println("Gostou? Quer ser um colaborador contÃ­nuo ou tem mais dÃºvidas ? Envie um e-mail para - - > doeparanos@do.acao.org");
+    System.out.println("Somos um grupo de estudantes e aspirantes da tecnologia, que compartilha experiências vividas ao longo da vida em comunidades carentes.");
+    System.out.println("Diante disso surgiu a ideia do projeto Do(ação), que visa usar a tecnologia como uma ferramenta aliada que ajuda pessoas da nossa cidade a enfrentarem as dificuldades do dia a dia.");
+    System.out.println("Pessoas carentes de ajuda e pessoas carentes de ajudar. É simplesmente uma troca de amor.");
+    System.out.println("Sim, aqui todos são ajudados de uma forma ou de outra, o importante é colocar o Do em ação ;)");
+    System.out.println("Gostou? Quer ser um colaborador contínuo ou tem mais dúvidas ? Envie um e-mail para - - > doeparanos@do.acao.org");
 
     Thread.sleep(7000);
 
@@ -170,7 +170,7 @@ if(button == 3){
         Cadastro [3] = input.next();
 
         input.nextLine();
-        System.out.println("Informe o seu endereÃ§o para prosseguir o cadastro: ");
+        System.out.println("Informe o seu endereço para prosseguir o cadastro: ");
         Cadastro[4] = input.nextLine();
 
         
@@ -183,7 +183,7 @@ if(button == 3){
         }
 
         else{
-            System.out.println("Login ou senha nÃ£o correspondem, repita o cadastro.");
+            System.out.println("Login ou senha não correspondem, repita o cadastro.");
         }
     
     }while(!Cadastro[2].equals(Cadastro[0]) || !Cadastro[1].equals(Cadastro [3]));
@@ -226,8 +226,8 @@ logs.login(); // Mensagem de bem vindo.
 
 
 
-System.out.println("Como o do(acao) pode ser Ãºtil para vocÃª?");
-System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem que precisa de doaÃ§Ã£o? ");
+System.out.println("Como o do(acao) pode ser útil para você");
+System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem que precisa de uma do(ação);? ");
 
 botao = input.nextInt();
 //Escolha 1 --> Feito por Nicolas e Matheus Mota.
@@ -238,27 +238,27 @@ botao = input.nextInt();
     Thread.sleep(2000);
 
     if(choose == 1){
-    System.out.println("Quantas peÃ§as de roupas vocÃª quer doar? ");
+    System.out.println("Quantas peças de roupas você quer doar? ");
     quantidade = input.nextInt();
     }
 
     if(choose == 2){
-    System.out.println("Quantas peÃ§as de roupas de cama vocÃª quer doar? ");
+    System.out.println("Quantas peças de roupas de cama você quer doar? ");
     quantidade = input.nextInt();
     }
 
     if(choose == 3){
-    System.out.println("Quantos mantimentos vocÃª quer doar? ");
+    System.out.println("Quantos mantimentos você quer doar? ");
     quantidade = input.nextInt();
     }
 
     if(choose == 4){
-    System.out.println("Quantos brinquedos vocÃª quer doar? ");
+    System.out.println("Quantos brinquedos você quer doar? ");
     quantidade = input.nextInt();
     }
 
 Thread.sleep(2000);
-System.out.println("Em 4 dias Ãºteis iremos ao seu endereÃ§o:" + bene.getEndereco() + " fazer a coleta da doaÃ§Ã£o.");
+System.out.println("Em 4 dias úteis iremos ao seu endereço:" + bene.getEndereco() + " fazer a coleta da doação.");
 Thread.sleep(7000);
 System.out.println("Obrigado por contribuir com o nosso projeto <3");
 }
@@ -269,31 +269,34 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
         do {
 			try {
 		System.out.println("Kits disponiveis: ");
-		System.out.println("Kit 1: 4 peÃ§as de roupa || 3 peÃ§as de roupa de cama || 2 mantimentos || 1 brinquedo");
-		System.out.println("KIt 2: 3 peÃ§as de roupa || 1 peÃ§as de roupa de cama || 4 mantimentos || 1 brinquedo");
-		System.out.println("Kit 3: 2 peÃ§as de roupa || 4 peÃ§as de roupa de cama || 3 mantimentos || 1 brinquedo");
-		System.out.println("\nQual kit vocÃª deseja?");
+		System.out.println("Kit 1: 4 peças de roupa || 3 peças de roupa de cama || 2 mantimentos || 1 brinquedo");
+		System.out.println("KIt 2: 3 peças de roupa || 1 peças de roupa de cama || 4 mantimentos || 1 brinquedo");
+		System.out.println("Kit 3: 2 peças de roupa || 4 peças de roupa de cama || 3 mantimentos || 1 brinquedo");
+		System.out.println("\nQual kit você deseja?");
 		choose = input.nextInt();
 			}
 			catch(InputMismatchException f) {
-			}
+				Thread.sleep(500);
+	        	System.out.println("Ops... parece que o sistema caiu. Tente iniciar novamente.");
+	        	System.exit(0);
+	        }
 		
 		
 		if (choose == 1) {
-			System.out.println("VocÃª escolheu o kit 1");
+			System.out.println("Você escolheu o kit 1");
 			
 			
 		}
 		else if (choose == 2) {
-			System.out.println("VocÃª escolheu o kit 2");
+			System.out.println("Você escolheu o kit 2");
 			
 		}
 		else if (choose == 3) {
-			System.out.println("VocÃª escolheu o kit 3");
+			System.out.println("Você escolheu o kit 3");
 			
 		}
 		else {
-			System.out.println("Ops... parece que nÃ£o temos esse kit, por que nÃ£o seleciona um outro?\n");
+			System.out.println("Ops... parece que não temos esse kit, por que não seleciona um outro?\n");
 			continue;
 			}
 		
@@ -303,7 +306,7 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 		input.nextLine();
 		
 		Thread.sleep(2000);
-		System.out.println("Enviaremos para o endereÃ§o: " + bene.getEndereco() + " as doaÃ§Ãµes.");
+		System.out.println("Enviaremos para o endereço: " + bene.getEndereco() + " as doações.");
         Thread.sleep(7000);
         System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
@@ -315,37 +318,40 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
     if (botao == 3) {
     input.nextLine();    
-    System.out.println("Informe o endereÃ§o da pessoa que queira indicar: ");
+    System.out.println("Informe o endereço da pessoa que queira indicar: ");
     Address = input.nextLine();
     bene.setBenefiAddress(Address);
     do {
         try {
     System.out.println("Kits disponiveis: ");
-    System.out.println("Kit 1: 4 peÃ§as de roupa || 3 peÃ§as de roupa de cama || 2 mantimentos || 1 brinquedo");
-    System.out.println("KIt 2: 3 peÃ§as de roupa || 1 peÃ§as de roupa de cama || 4 mantimentos || 1 brinquedo");
-    System.out.println("Kit 3: 2 peÃ§as de roupa || 4 peÃ§as de roupa de cama || 3 mantimentos || 1 brinquedo");
-    System.out.println("\nQual kit vocÃª deseja?");
+    System.out.println("Kit 1: 4 peças de roupa || 3 peças de roupa de cama || 2 mantimentos || 1 brinquedo");
+    System.out.println("KIt 2: 3 peças de roupa || 1 peças de roupa de cama || 4 mantimentos || 1 brinquedo");
+    System.out.println("Kit 3: 2 peças de roupa || 4 peças de roupa de cama || 3 mantimentos || 1 brinquedo");
+    System.out.println("\nQual kit você deseja?");
     choose = input.nextInt();
         }
         catch(InputMismatchException f) {
+        	Thread.sleep(500);
+        	System.out.println("Ops... parece que o sistema caiu. Tente iniciar novamente.");
+        	System.exit(0);
         }
     
     
     if (choose == 1) {
-        System.out.println("VocÃª escolheu o kit 1");
+        System.out.println("Você escolheu o kit 1");
         
         
     }
     else if (choose == 2) {
-        System.out.println("VocÃª escolheu o kit 2");
+        System.out.println("Você escolheu o kit 2");
         
     }
     else if (choose == 3) {
-        System.out.println("VocÃª escolheu o kit 3");
+        System.out.println("Você escolheu o kit 3");
         
     }
     else {
-        System.out.println("Ops... parece que nÃ£o temos esse kit, por que nÃ£o seleciona um outro?\n");
+        System.out.println("Ops... parece que não temos esse kit, por que não seleciona um outro?\n");
         continue;
         }
     
@@ -356,7 +362,7 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
     
 
     Thread.sleep(2000);
-    System.out.println("Enviaremos para o endereÃ§o: " + bene.getBenefiAddress() + " as doaÃ§Ãµes.");
+    System.out.println("Enviaremos para o endereço: " + bene.getBenefiAddress() + " as doações.");
     Thread.sleep(7000);
     System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
@@ -368,7 +374,7 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
 
 
-System.out.println("CÃ³digo feito para o trabalho em java para a Generation Brazil.");
+System.out.println("Código feito para o trabalho em java para a Generation Brazil.");
 System.out.println("Feito por: Hellen Sabo, Matheus Mota, Nicolas Alves, Victor Mariano, Vitor Galdino, Yasmin Nicolau.");
 
     
