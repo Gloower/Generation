@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 public class exer6 {
@@ -28,5 +28,8 @@ public class exer6 {
         System.out.println("Quantidade de multiplos de 3: " + plusMult3);
         System.out.println("A media de multiplos de 3: " + (plusMult3/mult3));
         System.out.println("Media geral com multiplos de 3: " + (plusMult3/numbers));
+
+
+        u.close();
     }
 }

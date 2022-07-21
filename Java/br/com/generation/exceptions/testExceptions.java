@@ -1,4 +1,4 @@
-package Java.br.com.generation.exceptions;
+package exceptions;
 import java.util.*;
 
 public class testExceptions {
@@ -21,6 +21,7 @@ public class testExceptions {
         catch(InputMismatchException e){
             System.out.println("Impossivel dividir por uma letra");
         }
-        
+      
+        input.close();
     }
 }

@@ -1,4 +1,4 @@
-package Java.br.com.generation.interfaces;
+package interfaces;
 
 public class Dog implements Animal {
 

@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios4;
+package exercicios4;
 
 class exer2 {
     private String retailer; // --> name

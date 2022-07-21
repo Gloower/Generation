@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 
@@ -17,5 +17,6 @@ public class exer2 {
                 System.out.println("Impar");
             }
         }
+        u.close();
     }
 }

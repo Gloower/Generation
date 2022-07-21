@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios3;
+package exercicios3;
 import java.util.*;
 
 public class exer3 {

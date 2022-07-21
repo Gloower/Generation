@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 public class exer4 {
@@ -51,6 +51,7 @@ public class exer4 {
 
 
             }
+            u.close();
     }
    
 }

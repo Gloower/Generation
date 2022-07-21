@@ -1,4 +1,4 @@
-package Java.br.com.generation.heranca;
+package heranca;
 
 class Employee extends Person {
     private double salario;

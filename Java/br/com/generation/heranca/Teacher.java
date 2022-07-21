@@ -1,4 +1,4 @@
-package Java.br.com.generation.heranca;
+package heranca;
 
 public class Teacher extends Employee {
     private String subject;

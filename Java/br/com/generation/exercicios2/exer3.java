@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 public class exer3 {
@@ -28,6 +28,6 @@ public class exer3 {
             System.out.println("Pessoas maior de 50 anos: " + age50);
             
         }
-
+        u.close();
     }
 }

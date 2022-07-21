@@ -1,4 +1,4 @@
-package Java.br.com.generation.variavel;
+package variavel;
 import java.util.Scanner;
 
 

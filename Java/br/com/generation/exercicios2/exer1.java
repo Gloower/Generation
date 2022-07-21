@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 public class exer1 {
@@ -10,5 +10,6 @@ public class exer1 {
             System.out.println(number);
             }
         }
+        u.close();
     }   
 }

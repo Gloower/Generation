@@ -1,14 +1,15 @@
 # Generation
 
-Projeto feito enquanto estavamos cursando o curso da Generation Brazil. 
+Conteúdos aprendidos enquanto estava cursando o curso da Generation Brazil. 
 <a target='_blank' href="https://brazil.generation.org/">
 👨‍🎓
 </a>
 
+ (Clique no emoji para ser redirecionado ao site)
 # Observação
 
-- Este projeto é feito em Java, o script é voltado para doações.
-- Caso encontre algum bug chamar no discord, glwr#0005;
+- Projeto feito em Java para o bootcamp da [Generation Brazil](https://brazil.generation.org/);
+- Caso encontre algum bug me chamar no discord, glwr#0005;
 - Se você é dev e achou Dup e sabe como resolver,
 faz uma fork e corrige-a pra mim, agradeço <3.
 
@@ -23,19 +24,3 @@ são **extremamente apreciadas**
 3. Realize o Commit (`git commit -m 'Add some featureBraba'`)
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
-
-ou simplesmente, crie uma **ISSUE**
-
-## Citação
-Para programar bem, é necessário muita prática. Uma vez o Daniel He4rt me disse: 
->**A cada bug resolvido, mais perto da senioridade você está.**
-
-
-
-## Autores
-- **Hellen Sabo** [Github](https://github.com/HellenSabo)
-- **Matheus Mota** [Github](https://github.com/omatheusmota)
-- **Nicolas Alves** [Github](https://github.com/Gloower/)
-- **Victor Mariano** [Github](https://github.com/VMarianOo/)
-- **Vitor Galdino** [Github](https://github.com/VitorGaldino)
-- **Yasmin Santos** [Github](https://github.com/ynicolau)

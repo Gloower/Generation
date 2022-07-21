@@ -1,4 +1,4 @@
-package Java.br.com.generation.heranca;
+package heranca;
 
 class Student extends Person {
     private String semester;

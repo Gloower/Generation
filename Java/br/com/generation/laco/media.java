@@ -1,4 +1,4 @@
-package Java.br.com.generation.laco;
+package laco;
 import java.util.Scanner;
 
 public class media {

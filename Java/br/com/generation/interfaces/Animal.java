@@ -1,4 +1,4 @@
-package Java.br.com.generation.interfaces;
+package interfaces;
 
 public interface Animal {
    public void somAnimal();

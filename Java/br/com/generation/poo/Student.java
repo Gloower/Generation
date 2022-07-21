@@ -1,4 +1,4 @@
-package Java.br.com.generation.poo;
+package poo;
 
 
 class Student {

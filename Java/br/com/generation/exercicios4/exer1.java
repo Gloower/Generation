@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios4;
+package exercicios4;
 
 class exer1 {
     private String client; // --> client name

@@ -1,4 +1,4 @@
-package Java.br.com.generation.exercicios2;
+package exercicios2;
 import java.util.*;
 
 public class exer5 {
@@ -16,5 +16,7 @@ public class exer5 {
         while(number != 0);
 
         System.out.println("A soma total dos numeros é: " + plusNum);
+
+        u.close();
     }
 }
