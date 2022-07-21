@@ -4,22 +4,11 @@ package Projeto;
 class Login {
     private String user; // --> Login
     private String pass; // --> Senha
-    private String edit; // --> Redefinir sua senha.
 
     public void setPass(String pass) {
         this.pass = pass;
     }
 
-    public String getEdit() {
-        return edit;
-    }
-
-    public void setEdit(String edit) {
-        this.edit = edit;
-    }
-
-
-   
     public String getUser() {
         return user;
     }
