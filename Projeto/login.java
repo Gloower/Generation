@@ -1,3 +1,5 @@
+// Get and Set of login and pass
+
 package Projeto;
 
 class Login {
