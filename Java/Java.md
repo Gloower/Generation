@@ -14,7 +14,7 @@ faz uma fork e corrige-a pra mim, agradeço <3.
 
 
 # Conteúdos
-1. [Exercicios](/Java/br/com/generation/)
+1. [Exercicios](/Java/br/com/generation/Exercicios)
 2. [Incrementação](/Java/br/com/generation/incremento/)
 3. [Laço](/Java/br/com/generation/laco/)
 4. [Variável](/Java/br/com/generation/variavel)
