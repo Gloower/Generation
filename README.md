@@ -27,6 +27,8 @@ são **extremamente apreciadas**
 # Conteúdos
 1. [Portugol](/Portugol/Portugol.md)
 2. [Java](/Java/Java.md)
-3. [Projeto](/Projeto/README.md)
+3. [Mysql](/Mysql/README.md)
+4. [Projeto](/Projeto/README.md)
+
 
  (Clique no emoji para ser redirecionado ao site)
