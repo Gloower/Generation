@@ -2,8 +2,8 @@
 
 Conteúdos aprendidos enquanto estava cursando o curso da Generation Brazil. 
 <a target='_blank' href="https://brazil.generation.org/">
-👨‍🎓 (Clique no emoji)
-</a>
+👨‍🎓 
+</a> (Clique no emoji)
 
 # Observação
 
