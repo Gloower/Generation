@@ -1,13 +1,14 @@
 package com.farmacia.farmacinha.Model;
 
-
 import java.time.LocalDateTime;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -17,8 +18,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "TB_PRODUTOS")
-public class Produtos {
+@Table(name = "TB_CATEGORIAS") 
+public class Categoria {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,19 +27,18 @@ public class Produtos {
 
     @NotBlank
     @Size(min = 5, max = 255)
-    private String produtoNome;
+    private String nomeCategoria;
 
     @NotBlank
     @Size(min = 5, max = 255)
-    private String produtoDescricao;
+    private String descricaoCategoria;
 
     @UpdateTimestamp
     private LocalDateTime data;
 
-    @ManyToOne
-    @JsonIgnoreProperties("Produtos")
-    private Categoria categoria;
-
+    @OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
+    @JsonIgnoreProperties("categoria")
+    private List<Produtos> produtos;
 
     public Long getId() {
         return id;
@@ -48,20 +48,20 @@ public class Produtos {
         this.id = id;
     }
 
-    public String getProdutoNome() {
-        return produtoNome;
+    public String getNomeCategoria() {
+        return nomeCategoria;
     }
 
-    public void setProdutoNome(String produtoNome) {
-        this.produtoNome = produtoNome;
+    public void setNomeCategoria(String nomeCategoria) {
+        this.nomeCategoria = nomeCategoria;
     }
 
-    public String getProdutoDescricao() {
-        return produtoDescricao;
+    public String getDescricaoCategoria() {
+        return descricaoCategoria;
     }
 
-    public void setProdutoDescricao(String produtoDescricao) {
-        this.produtoDescricao = produtoDescricao;
+    public void setDescricaoCategoria(String descricaoCategoria) {
+        this.descricaoCategoria = descricaoCategoria;
     }
 
     public LocalDateTime getData() {
@@ -72,13 +72,14 @@ public class Produtos {
         this.data = data;
     }
 
-    public Categoria getCategoria() {
-        return categoria;
+    public List<Produtos> getProdutos() {
+        return produtos;
     }
 
-    public void setCategoria(Categoria categoria) {
-        this.categoria = categoria;
+    public void setProdutos(List<Produtos> produtos) {
+        this.produtos = produtos;
     }
+
     
     
 }
