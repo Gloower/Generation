@@ -7,7 +7,10 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.time.LocalDateTime;
+import java.util.List;
 
 import javax.persistence.*;
 
@@ -25,7 +28,19 @@ public class Temas {
 
     @NotBlank // Famoso NOT NULL --> porem mais completo
     @Size(min = 5, max = 1000) // minimo tem que ser --> 5 e o maximo --> 1000
-    private String temasDescrição;
+    private String temasDescricao;
+
+    @OneToMany(mappedBy = "tema", cascade = CascadeType.REMOVE)
+    @JsonIgnoreProperties("tema")
+    private List<Postagem> postagem;
+
+    public List<Postagem> getPostagem() {
+        return postagem;
+    }
+
+    public void setPostagem(List<Postagem> postagem) {
+        this.postagem = postagem;
+    }
 
     public long getId() {
         return id;
@@ -43,12 +58,12 @@ public class Temas {
         this.temasNome = temasNome;
     }
 
-    public String getTemasDescrição() {
-        return temasDescrição;
+    public String getTemasDescricao() {
+        return temasDescricao;
     }
 
-    public void setTemasDescrição(String temasDescrição) {
-        this.temasDescrição = temasDescrição;
+    public void setTemasDescrição(String temasDescricao) {
+        this.temasDescricao = temasDescricao;
     }
 
     public LocalDateTime getData() {
