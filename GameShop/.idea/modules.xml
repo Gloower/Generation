@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GameShop.iml" filepath="$PROJECT_DIR$/.idea/GameShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/games/games.iml" filepath="$PROJECT_DIR$/games/games.iml" />
+    </modules>
+  </component>
+</project>
