@@ -1,7 +1,10 @@
 package com.gameshop.games.Model;
 
 
+import org.hibernate.annotations.UpdateTimestamp;
+
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -32,6 +35,9 @@ public class ProdutoModel {
     @NotNull
     @Positive
     private BigDecimal precoProduto;
+
+    @UpdateTimestamp
+    private LocalDateTime data;
 
     public Long getId() {
         return id;
@@ -65,5 +71,11 @@ public class ProdutoModel {
         this.precoProduto = precoProduto;
     }
 
-    
+    public LocalDateTime getData() {
+        return data;
+    }
+
+    public void setData(LocalDateTime data) {
+        this.data = data;
+    }
 }
