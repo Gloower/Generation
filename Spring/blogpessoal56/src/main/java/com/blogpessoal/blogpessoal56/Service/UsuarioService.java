@@ -73,9 +73,6 @@ public class UsuarioService {
             }
         }
 
-        /**
-         * empty -> Retorna uma instância de Optional vazia, caso o usuário não seja encontrado.
-         */
         return Optional.empty();
 
     }
