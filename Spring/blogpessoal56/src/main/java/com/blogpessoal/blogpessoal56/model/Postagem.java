@@ -31,8 +31,11 @@ public class Postagem {
     private String texto;
 
     @UpdateTimestamp
-    private LocalDateTime data;   
+    private LocalDateTime data;
 
+    @ManyToOne
+    @JsonIgnoreProperties("postagem")
+    private Usuario usuario;
     @ManyToOne
     @JsonIgnoreProperties("postagem")
     private Temas tema;
@@ -67,7 +70,12 @@ public class Postagem {
     public void setData(LocalDateTime data) {
         this.data = data;
     }
-    
 
+    public Usuario getUsuario() {
+        return usuario;
+    }
 
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
 }

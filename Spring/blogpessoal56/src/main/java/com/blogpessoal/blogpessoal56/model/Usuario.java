@@ -1,29 +1,38 @@
 package com.blogpessoal.blogpessoal56.model;
-
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.List;
 
 @Entity
-@Table(name = "TB_USUARIO")
+@Table(name = "TB_USUARIOS")
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    @Size(min = 5, max = 25)
-    private String name;
+    @NotNull(message = "O atributo Nome é Obrigatório!")
+    private String nome;
 
-    @NotBlank(message = "Insira o seu username.")
-    @Size(min = 5, max = 10)
-    private String username;
+    @Size(max = 5000, message = "O link da foto não pode ser maior do que 5000 caracteres")
+    private String foto;
 
-    @NotBlank(message = "Insira a sua senha.")
-    @Size(max = 12)
-    private String password;
+    @NotNull(message = "O atributo Usuário é Obrigatório!")
+    @Email(message = "O atributo Usuário deve ser um email válido!")
+    private String usuario;
 
-    private String photoUser;
+    @NotBlank(message = "O atributo Senha é Obrigatório!")
+    @Size(min = 8, message = "A Senha deve ter no mínimo 8 caracteres")
+    private String senha;
+
+    @OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
+    @JsonIgnoreProperties("usuario")
+
+    private List<Postagem> postagem;
 
     public Long getId() {
         return id;
@@ -33,35 +42,43 @@ public class Usuario {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getUsername() {
-        return username;
+    public String getFoto() {
+        return foto;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
-    public String getPhotoUser() {
-        return photoUser;
+    public String getSenha() {
+        return senha;
     }
 
-    public void setPhotoUser(String photoUser) {
-        this.photoUser = photoUser;
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public List<Postagem> getPostagem() {
+        return postagem;
+    }
+
+    public void setPostagem(List<Postagem> postagem) {
+        this.postagem = postagem;
     }
 }
