@@ -30,5 +30,3 @@ ou simplesmente, crie uma **ISSUE**
 **Nicolas S. Alves** [Github](https://github.com/Gloower/Gloower) | [Linkedin](https://www.linkedin.com/in/nicolas-alves-a19650214/)
 
 <img alt="Cat lulululululululu" align="right" src="https://64.media.tumblr.com/1f954906259d294146630766105a563b/tumblr_pq2cv3VhFb1wyt28po1_540.gifv" width="200" >
-
-<div style="visibility: hidden">Por que esta olhando o meu README mocinho???</div>
