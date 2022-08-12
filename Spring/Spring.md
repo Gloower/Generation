@@ -1,3 +1,6 @@
+<img alt="Cat lulululululululu" align="right" src="https://64.media.tumblr.com/1f954906259d294146630766105a563b/tumblr_pq2cv3VhFb1wyt28po1_540.gifv" width="200" >
+
+
 # Generation
 Blog pessoal feito com Spring enquanto cursava o bootcamp da Generation Brazil.
 <a target='_blank' href="https://brazil.generation.org/">
