@@ -1,4 +1,4 @@
-package Java.exercicios.soltos;
+package soltos;
 import java.util.*;
 
 public class exer1 {
