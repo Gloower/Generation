@@ -41,8 +41,6 @@ System.out.println("--------               -      ---                           
 Thread.sleep(4000);
 
 
-
-
 //Desição de login --> 1 - Para fazer o cadastro 2 - Para fazer o login 3 - Quem somos nós?
 
 System.out.println("Use 1 para fazer o cadastro | 2 para - Ja tenho cadastro | 3 para - Quem somos nós?");
@@ -217,7 +215,7 @@ if(button == 3){
 
 
 //Segurança dos dados --> Api.java
-bene.setEndereco(Cadastro[4]);
+bene.setAddress(Cadastro[4]);
 logs.setUser(Cadastro[2]); 
 logs.setPassword(Cadastro[3]);
 logs.login(); // Mensagem de bem vindo.
@@ -259,7 +257,7 @@ botao = input.nextInt();
     }
 
 Thread.sleep(2000);
-System.out.println("Em 4 dias úteis iremos ao seu endereço: " + bene.getEndereco() + " fazer a coleta da doação.");
+System.out.println("Em 4 dias úteis iremos ao seu endereço: " + bene.getAddress() + " fazer a coleta da doação.");
 Thread.sleep(7000);
 System.out.println("Obrigado por contribuir com o nosso projeto <3");
 }
@@ -304,7 +302,7 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 		input.nextLine();
 		
 		Thread.sleep(2000);
-		System.out.println("Enviaremos para o endereço: " + bene.getEndereco() + " as doações.");
+		System.out.println("Enviaremos para o endereço: " + bene.getAddress() + " as doações.");
         Thread.sleep(7000);
         System.out.println("Obrigado por contribuir com o nosso projeto <3");
 

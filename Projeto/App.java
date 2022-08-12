@@ -1,4 +1,5 @@
-//Rode o codigo aqui, caso queria alterar algo abra os outros arquivos.
+// --> Caso precise rodar o projeto, rode nesse arquivo .java
+// --> Feito enquanto estudava os conceitos básicos do java.
 
 package Projeto;
 import java.util.*;

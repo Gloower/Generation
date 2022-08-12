@@ -1,5 +1,6 @@
-// Get and Set of login and pass
+// Get and Set of login and pass.
 
+// Sistema de login para o projeto.
 package Projeto;
 
 class Login {

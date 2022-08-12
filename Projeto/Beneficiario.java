@@ -2,7 +2,7 @@
 package Projeto;
 
 class Beneficiario {
-    private String endereco;
+    private String address;
     private String benefiAddress;
 
 
@@ -14,12 +14,12 @@ class Beneficiario {
         this.benefiAddress = benefiAddress;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getAddress() {
+        return address;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setAddress(String endereco) {
+        this.address = endereco;
     }
     
 }
