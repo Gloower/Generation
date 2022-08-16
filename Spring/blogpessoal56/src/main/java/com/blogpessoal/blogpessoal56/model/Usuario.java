@@ -1,11 +1,12 @@
 package com.blogpessoal.blogpessoal56.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.util.List;
 
 @Entity
@@ -33,6 +34,16 @@ public class Usuario {
     @JsonIgnoreProperties("usuario")
 
     private List<Postagem> postagem;
+
+    public Usuario(Long id, String nome, String foto, String usuario, String senha) {
+        this.id = id;
+        this.nome = nome;
+        this.foto = foto;
+        this.usuario = usuario;
+        this.senha = senha;
+    }
+    
+    public Usuario() { }
 
     public Long getId() {
         return id;
