@@ -1,4 +1,4 @@
-package Security;
+package com.blogpessoal.blogpessoal56.Security;
 
 import java.util.Collection;
 import java.util.List;
@@ -38,7 +38,6 @@ public class UserDetailsImpl implements UserDetails {
 
     @Override
     public String getUsername() {
-
         return userName;
     }
     @Override

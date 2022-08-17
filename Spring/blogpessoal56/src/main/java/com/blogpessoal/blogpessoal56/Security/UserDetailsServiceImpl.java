@@ -1,4 +1,4 @@
-package Security;
+package com.blogpessoal.blogpessoal56.Security;
 
 import com.blogpessoal.blogpessoal56.blog.repository.UsuarioRepository;
 import com.blogpessoal.blogpessoal56.model.Usuario;

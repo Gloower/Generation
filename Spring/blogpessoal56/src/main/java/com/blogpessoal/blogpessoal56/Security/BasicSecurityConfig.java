@@ -1,4 +1,4 @@
-package Security;
+package com.blogpessoal.blogpessoal56.Security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
