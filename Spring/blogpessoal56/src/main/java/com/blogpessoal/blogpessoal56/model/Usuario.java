@@ -1,6 +1,7 @@
 package com.blogpessoal.blogpessoal56.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -22,6 +23,7 @@ public class Usuario {
     @Size(max = 5000, message = "O link da foto não pode ser maior do que 5000 caracteres")
     private String foto;
 
+    @Schema(example = "email@email.com.br")
     @NotNull(message = "O atributo Usuário é Obrigatório!")
     @Email(message = "O atributo Usuário deve ser um email válido!")
     private String usuario;
